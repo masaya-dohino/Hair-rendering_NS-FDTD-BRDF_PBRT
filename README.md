@@ -93,10 +93,14 @@ The following figure shows the BRDF results for each hair surface structure rend
 From the rendering results, it was found that through the simulation of the structure that imitates damaged hair surface, the white highlights became stronger, just like real hair, and that changes in the hair's microstructure affect the CG representation of the hair. Through these results, it can be inferred that the generation of cavities (gaps) due to cuticle shedding and lifting is one of the factors affecting the appearance of damaged hair.
 
 ## Next
-‣Need to increase the number of samples for BRDF calculations and to increase the computational domain to reduce the influence of boundary conditions, thus increasing the speed of numerical calculations.
+‣Need to increase the number of samples for BRDF calculations and to increase the computational domain to reduce the influence of boundary conditions, thus increasing 
+ 
+ the speed of numerical calculations.
 
 ‣Extend NS-FDTD simulations to 3-D.
 
 ‣Need a rendering method that takes into account the entire cuticle, cortices, medulla, and melanin pigments.
 
-‣Research is needed to determine why the width of the highlight effect (angel rings) differs, e.g. by increasing the number of hairs and performing ray tracing.
+‣Research is needed to determine why the width of the highlight effect (angel rings) differs, 
+ 
+ e.g. by increasing the number of hairs and performing ray tracing.
