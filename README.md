@@ -3,11 +3,11 @@ Hair rendering with BRDF by NS-FDTD on PBRT
 
 ## Over view
 
-### PBRT 
+## PBRT 
 
-### How to use
+## How to use
 
-### Result
+## Result
 
 
-### Learning
+## Learning
