@@ -68,6 +68,10 @@ One of the structures of damaged hair is the hollowing out of the cortex and med
 
 ![image](https://user-images.githubusercontent.com/57475794/219864271-3128cc04-cd74-4d81-9bbb-c928cae34529.png)
 
+### 2D BRDF
+![image](https://user-images.githubusercontent.com/57475794/219870855-3fe7801e-6888-43f8-b7ab-4fc6cbc13c00.png)
+
+
 ### Rendaring with nano-structure optical BRDF
 Original BRDF express nano-structure(hair) optical scattering. Original BRDF access the table of wavelength spectrum for incident and reflected angles from calculation of NS-FDTD argolhythm.
 
