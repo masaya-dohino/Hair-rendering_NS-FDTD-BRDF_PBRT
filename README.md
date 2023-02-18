@@ -11,6 +11,12 @@ Windows
 ・Install pbrt-v4： https://github.com/mmp/pbrt-v4
 
 ## PBRT 
+https://pbr-book.org/
+
+Photorealistic computer graphics is ubiquitous today, with applications that include entertainment—notably, movies and video games; product design; and architecture. Over the past decade, physically-based approaches to rendering have become widely used, where an accurate modeling of the physics of light scattering is at the heart of image synthesis. These approaches offer both visual realism and predictability.
+
+
+Physically Based Rendering describes both the mathematical theory behind a modern photorealistic rendering system as well as its practical implementation. A method known as “literate programming” combines human-readable documentation and source code into a single reference that is specifically designed to aid comprehension. The ideas and software in this book show the reader how to design and employ a full-featured rendering system capable of creating stunning imagery.
 
 ## How to use
 ### set up
