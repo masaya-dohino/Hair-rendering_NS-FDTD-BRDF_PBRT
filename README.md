@@ -13,6 +13,8 @@ Windows
 ## PBRT 
 https://pbr-book.org/
 
+(reference)
+
 Photorealistic computer graphics is ubiquitous today, with applications that include entertainment—notably, movies and video games; product design; and architecture. Over the past decade, physically-based approaches to rendering have become widely used, where an accurate modeling of the physics of light scattering is at the heart of image synthesis. These approaches offer both visual realism and predictability.
 
 
