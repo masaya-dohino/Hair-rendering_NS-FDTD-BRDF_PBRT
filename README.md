@@ -60,7 +60,8 @@ cd pbrt-v4
 
 ## Result
 
-![image](https://user-images.githubusercontent.com/57475794/219851431-d3a9f92d-89bf-4afc-90b0-963a6aa600dc.png)
+![image](https://user-images.githubusercontent.com/57475794/219851495-1cf9cee6-f2f6-4356-a1cc-68bdaeb2cde0.png)
+
 
 
 ## Learning
