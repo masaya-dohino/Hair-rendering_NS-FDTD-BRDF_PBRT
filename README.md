@@ -4,11 +4,11 @@ Hair rendering with BRDF by NS-FDTD on PBRT
 ## Over view
 Windows
 
-Install git:
+・Install git: https://git-scm.com/
 
-Install cmake: 
+・Install cmake: https://cmake.org/download/
 
-Install pbrt-v4：
+・Install pbrt-v4： https://github.com/mmp/pbrt-v4
 
 ## PBRT 
 
@@ -48,6 +48,13 @@ cmake .. -G "Visual Studio 17 2022" -A x64 -T host=x64
 
 ```
 call powershell -command "$oldpath = [System.Environment]::GetEnvironmentVariable(\"Path\", \"Machine\"); $oldpath += \";c:\Program Files\PBRT-V4\bin\"; [System.Environment]::SetEnvironmentVariable(\"Path\", $oldpath, \"Machine\")
+```
+・Sample rendering of SCENE file(.pbrt).
+
+```
+cd %HOMEPATH%
+cd pbrt-v4
+"c:\Program Files\PBRT-V4\bin\pbrt.exe" --outfile a.png ..\pbrt-v4-scenes\killeroos\killeroo-simple.pbrt
 ```
 
 ## Result
