@@ -1,0 +1,33 @@
+Integrator "path" "integer maxdepth" [ 65 ] 
+Transform [ -0.999887 0.00390257 0.0145262 -0 -0 0.965755 -0.259457 -0 0.0150413 0.259428 0.965645 -0 0.146624 -9.36998 28.765 1]
+Sampler "sobol" "integer pixelsamples" [ 64 ] 
+PixelFilter "triangle" "float xwidth" [ 1.000000 ] "float ywidth" [ 1.000000 ] 
+Film "image" "integer xresolution" [ 1024 ] "integer yresolution" [ 1024 ] "string filename" [ "straight-hair.png" ] 
+Camera "perspective" "float fov" [ 35.000000 ] 
+WorldBegin
+	#MakeNamedMaterial "hair" "string type" [ "hair" ] "float beta_m" 0.27 "float eumelanin" 5
+	#NamedMaterial "hair" 
+	Material "morpho" "float eumelanin" 3
+	Include "models/hair.pbrt" 
+
+	#LightSource "distant" "point from" [ 0.190330 20.758426 -0.623349 ] "point to" [ 0.000000 0.000000 0.000000 ] "rgb L" [ 19.091171 19.091171 19.091171 ] 
+	#LightSource "distant" "point from" [ 0.290330 0.758426 -0.623349 ] "point to" [ 0.000000 0.000000 0.000000 ] "rgb L" [ 19.091171 19.091171 19.091171 ] 
+	LightSource "distant" "point from" [ 28 20.558426 -0.623349 ] "point to" [ 0.000000 0.000000 0.000000 ] "rgb L" [ 19.091171 19.091171 19.091171 ] 
+
+	#LightSource "distant" "point from" [ 0 0 -0.623349 ] "point to" [ 0.000000 0.000000 0.000000 ] "rgb L" [ 19.091171 19.091171 19.091171 ]
+	#LightSource "distant" "point from" [ 0 3.258426 -0.623349 ] "point to" [ 0.000000 0.000000 0.000000 ] "rgb L" [ 19.091171 19.091171 19.091171 ] 
+	#LightSource "distant" "point from" [ 0 3.258426 -0.623349 ] "point to" [ 0.000000 0.000000 0.000000 ] "rgb L" [ 19.091171 19.091171 19.091171 ]
+	#LightSource "distant" "point from" [ 0.190330 -0.758426 -0.623349 ] "point to" [ 0.000000 0.000000 0.000000 ] "rgb L" [ 19.091171 19.091171 19.091171 ]
+	#LightSource "distant" "point from" [ -0.5 -0.5 -0.523349 ] "point to" [ 0.000000 0.000000 0.000000 ] "rgb L" [ 19.091171 19.091171 19.091171 ] 
+	#LightSource "distant" "point from" [ 0.5 0.5 -0.523349 ] "point to" [ 0.000000 0.000000 0.000000 ] "rgb L" [ 19.091171 19.091171 19.091171 ] 
+	#LightSource "distant" "point from" [ 0.5 -0.5 0.523349 ] "point to" [ 0.000000 0.000000 0.000000 ] "rgb L" [ 19.091171 19.091171 19.091171 ] 
+	#LightSource "distant" "point from" [ 0.190330 0.758426 -0.623349 ] "point to" [ 0.000000 0.000000 0.000000 ] "rgb L" [ 19.091171 19.091171 19.091171 ] 
+	#LightSource "distant" "point from" [ -0.290330 0.758426 -0.623349 ] "point to" [ 0.000000 0.000000 0.000000 ] "rgb L" [ 19.091171 19.091171 19.091171 ] 
+	#LightSource "distant" "point from" [ 0 0.758426 -0.623349 ] "point to" [ 0.000000 0.000000 0.000000 ] "rgb L" [ 19.091171 19.091171 19.091171 ]   
+	TransformBegin
+		Transform [ -1 0 8.74228e-008 0 -8.74228e-008 0 -1 0 0 1 0 0 0 0 0 1]
+		#LightSource "infinite" "string mapname" [ "textures/Skydome.pfm" ] 
+		LightSource "infinite" "rgb L"[ 0.73 0.88 0.90 ] 
+		#LightSource "infinite" "rgb L"[ 0.0525 0.020 0.0169 ] 
+	TransformEnd
+WorldEnd
