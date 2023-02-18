@@ -56,9 +56,11 @@ cd %HOMEPATH%
 cd pbrt-v4
 "c:\Program Files\PBRT-V4\bin\pbrt.exe" --outfile a.png ..\pbrt-v4-scenes\killeroos\killeroo-simple.pbrt
 ```
-![image](https://user-images.githubusercontent.com/57475794/219850992-8a4eba2e-0199-4f88-9e8b-f0f34d434f8b.png)
+
 
 ## Result
+
+![image](https://user-images.githubusercontent.com/57475794/219851431-d3a9f92d-89bf-4afc-90b0-963a6aa600dc.png)
 
 
 ## Learning
